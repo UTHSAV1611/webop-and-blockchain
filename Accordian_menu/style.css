@@ -1,0 +1,24 @@
+/* Basic styles for accordion */
+.accordion {
+  max-width: 400px; /* Adjust width as needed */
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+/* Style for active accordion item */
+.accordion-item.active .accordion-content {
+  display: block;
+}
